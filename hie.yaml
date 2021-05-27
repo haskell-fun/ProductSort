@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "ProductSort:lib"
+
+    - path: "./app/Main.hs"
+      component: "ProductSort:exe:ProductSort-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "ProductSort:exe:ProductSort-exe"
+
+    - path: "./test"
+      component: "ProductSort:test:ProductSort-test"
+
